@@ -1,15 +1,15 @@
-.map {
-    position: absolute;
-    left: 50px;
-    top:  20px;
-    width: 200px;
-    height: 200px;
-}
+/*.map {*/
 
-#board {
-    z-index: 0;
- }
+/*}*/
 
-#units {
-    z-index: 1;
-}
+/*#board {*/
+    /*z-index: 0;*/
+/*}*/
+
+/*#units {*/
+    /*z-index: 1;*/
+/*}*/
+
+/*#cursors {*/
+    /*z-index: 2;*/
+/*}*/

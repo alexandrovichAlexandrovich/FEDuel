@@ -3,21 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="jsontest.css">
     <script src="jsontest.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src='https://code.createjs.com/1.0.0/easeljs.min.js'></script>
 </head>
 <body onload="init()">
-    <button id="jsonget">Get JSON</button>
-    <div id="status"></div>
-    <div id="content"></div>
 
+    <!-- Main map screen and tile info -->
+
+    <div id="map" style="width:50%; height:300px; border-color:black; float:left ">
+        <canvas id="board" class="map"
+                style="position: absolute; left: 50px; top:50px; width: 0; height: 0; z-index:0">
+        </canvas>
+        <canvas id="units" class="map"
+                style="position: absolute; left: 50px; top:50px; width: 0; height: 0; z-index:1">
+        </canvas>
+        <canvas id="cursors" class="map"
+                style="position: absolute; left: 50px; top:50px; width: 0; height: 0; z-index:2">
+        </canvas>
+        <canvas id="mouseControl" class="map"
+                style="position: absolute; left: 50px; top:50px; width: 0; height: 0; z-index:2">
+        </canvas>
+    </div>
+    <div id="tileInfo" style="height:300px; margin-left:50%">
+        Name: <span id="tileInfoMap"></span>
+        Tile type: <span id="tileInfoType"></span>
+        Tile color: <span id="tileInfoImage"></span>
+        Occupying: <span id="tileInfoOccupy"></span>
+    </div>
+
+    <!--Control buttons-->
+
+    <button id="jsonget">Get JSON</button>
     <button id="mapdraw">Draw Map</button>
     <button id="unitdraw">Draw Units</button>
-    <div id="map"></div>
-
-    <canvas id="board" class="map"></canvas>
-    <canvas id="units" class="map"></canvas>
-
+    <div id="status"></div>
+    <div id="content"></div>
+    <div id="maptext"></div>
+    <div id="mousePos"></div>
+    <div id="mousePos2"></div>
 </body>
 </html>

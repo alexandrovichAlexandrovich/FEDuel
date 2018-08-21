@@ -3,20 +3,21 @@
   "MapName":"Waifu Wars",
 
   "Tiles":["0000","0000","0010","0010"],
+  "Units":["..B.","....","....","a..."],
   "Key":{"0":"Floor", "1":"Wall"},
 
-  "Units":{
-    "Team A":{
-      "Alice":{
+  "Stats":{
+      "a":{
+        "Team":"A",
+        "Name":"Alice",
         "Stats":["20"]
-      }
-    },
+      },
 
-    "Team B":{
-      "Bob":{
+      "B":{
+        "Team":"A",
+        "Name":"Bob",
         "Stats":["17"]
       }
     }
-  }
 
 }
