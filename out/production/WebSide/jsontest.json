@@ -1,0 +1,22 @@
+{
+  "GameID":"AAAA",
+  "MapName":"Waifu Wars",
+
+  "Tiles":["0000,0000,0010,0010"],
+  "Key":{"0":"Floor", "1":"Wall"},
+
+  "Units":{
+    "Team A":{
+      "Alice":{
+        "Stats":["20"]
+      }
+    },
+
+    "Team B":{
+      "Bob":{
+        "Stats":["17"]
+      }
+    }
+  }
+
+}

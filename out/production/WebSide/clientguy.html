@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        var ws;
+        wsActive = false;
+
+        function sendMessage(message, port) {
+            if(!wsActive){
+                wsActive = true;
+                ws = new WebSocket('ws://localhost:'+port+'/RequestHandler_war_exploded/ws')
+
+                ws.onmessage = function (msg) {
+                    console.log('Recieved: '+ msg.data);
+                    if(msg.data == 'NAME') ws.send('NAME DANIIL');
+                    document.getElementById('log').innerText = msg.data;
+
+                }
+
+                ws.onerror = function (msg) {
+                    document.getElementById('log').innerText = msg.data;
+                }
+
+                ws.onopen = function() {
+                    document.getElementById("cn-status").innerText = "Connection Opened";
+                    ws.send(message);
+                }
+
+                ws.onclose = function (ev) {
+                    document.getElementById("cn-status").innerText = "Connection closed.";
+                    wsActive = false;
+                }
+            }else{
+                ws.send(message);
+            }
+
+        }
+
+
+        function close(){
+            try{
+                ws.close();
+            }catch (e) {
+                document.getElementById("cn-status").innerText = "Ya messed up--there are no open connections.";
+                console.log(e);
+            }
+        }
+
+        function buttonFunctionality(){
+            document.getElementById("ping").addEventListener('click', function(){ sendMessage("Ping", 8080); });
+            document.getElementById("ring").addEventListener('click', function(){ sendMessage("Ring", 8080); });
+            document.getElementById("close").addEventListener('click', function(){ close(); });
+        }
+
+    </script>
+</head>
+<body onload="buttonFunctionality()">
+    <button id="ping">Ping!</button>
+    <button id="ring">Ring!</button>
+    <button id="close">Close Cnxn</button>
+    <div>
+        Last message received:
+        <div id="log"></div>
+
+        Status:
+        <div id="cn-status"></div>
+    </div>
+</body>
+</html>
