@@ -8,13 +8,13 @@
 
   "Stats":{
       "a":{
-        "Team":"A",
+        "Team":"0",
         "Name":"Alice",
         "Stats":["20"]
       },
 
       "B":{
-        "Team":"A",
+        "Team":"1",
         "Name":"Bob",
         "Stats":["17"]
       }

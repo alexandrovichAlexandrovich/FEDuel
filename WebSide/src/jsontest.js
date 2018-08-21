@@ -62,14 +62,14 @@ function getTileInfo(i, j) {
     var tile = json['Tiles'][i][j];
     $('#tileInfoMap').text('Waifu Wars');
     $('#tileInfoType').text(json["Key"][tile]);
-    $('#tileInfoColor').text(tileKey[tile]);
+    $('#tileInfoImage').text(tileKey[tile]);
     var unit = json["Units"][i][j];
     $('#tileInfoOccupy').text(unit === '.' ? 'None' : json["Stats"][unit]["Name"]);
 }
 
 function drawCursor(x, y) {
     var ctx = cursors.getContext('2d');
-    ctx.fillStyle = black;
+    ctx.fillStyle = 'rgba(0,0,0,0.5)';
     ctx.fillRect(x, y, 50, 50);
     document.getElementById("mousePos").innerText = x+','+y;
     document.getElementById("mousePos2").innerText = (x+tileWidth).toString()+','+(y+tileHeight).toString()+','+Math.floor(y/tileHeight)+','+Math.floor(x/tileWidth);
@@ -103,7 +103,22 @@ function write(data){
 }
 
 function drawUnits(){
-
+    var ctx=units.getContext('2d');
+    for(var i = 0; i < json["Units"][0].length; i++){
+        for(var j = 0; j < json["Units"].length; j++){
+            var c = json["Units"][i][j];
+            if(c !== '.'){
+                var team = json['Stats'][c]["Team"];
+                var x = j * tileWidth +(tileWidth / 2);
+                var y = i * tileHeight + (tileHeight / 2);
+                var rad = tileWidth/2.2;
+                ctx.beginPath();
+                ctx.fillStyle = team === '0' ? 'yellow' : 'green';
+                ctx.arc(x, y, rad, 0, 2*Math.PI, false);
+                ctx.fill();
+            }
+        }
+    }
 }
 
 function drawMap(){

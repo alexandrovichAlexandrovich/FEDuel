@@ -6,9 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65d88833-ccf1-4654-8673-69c970d6f880" name="Default Changelist" comment="Updated map control, has proper pixel control and feedback. Next step is to get JSON from server.">
+    <list default="true" id="65d88833-ccf1-4654-8673-69c970d6f880" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebSide/src/jsontest.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebSide/src/jsontest.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebSide/src/jsontest.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebSide/src/jsontest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebSide/src/jsontest.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebSide/src/jsontest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebSide/src/jsontest.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebSide/src/jsontest.json" afterDir="false" />
@@ -53,10 +52,10 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="143" />
-          <entry key="html" value="2053" />
+          <entry key="html" value="2057" />
           <entry key="java" value="1007" />
-          <entry key="js" value="3130" />
-          <entry key="json" value="273" />
+          <entry key="js" value="3600" />
+          <entry key="json" value="275" />
           <entry key="txt" value="156" />
           <entry key="xml" value="4" />
         </counts>
@@ -64,10 +63,10 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="143" />
-          <entry key="HTML" value="2053" />
+          <entry key="HTML" value="2057" />
           <entry key="JAVA" value="1007" />
-          <entry key="JSON" value="273" />
-          <entry key="JavaScript" value="3130" />
+          <entry key="JSON" value="275" />
+          <entry key="JavaScript" value="3600" />
           <entry key="PLAIN_TEXT" value="156" />
           <entry key="XML" value="4" />
         </counts>
@@ -114,15 +113,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebSide/src/jsontest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
+            <state relative-caret-position="311">
+              <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#canvas#0;n#div#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#canvas#1;n#div#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#2;n#div#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#canvas#3;n#div#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -133,10 +133,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebSide/src/jsontest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+            <state relative-caret-position="243">
+              <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
               <folding>
-                <element signature="n#!!block;n#drawCursor#0" />
                 <element signature="n#!!block;n#eraseCursors#0" />
                 <element signature="n#!!block;n#getData#0" />
                 <element signature="n#!!block;n#write#0" />
@@ -155,11 +154,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebSide/src/jsontest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="272">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -281,7 +280,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534884502641" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534886059949" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -393,7 +392,7 @@
       <option name="presentableId" value="Default" />
       <updated>1534780056161</updated>
       <workItem from="1534780062810" duration="8804000" />
-      <workItem from="1534793598051" duration="25582000" />
+      <workItem from="1534793598051" duration="27136000" />
     </task>
     <task id="LOCAL-00001" summary="no changes">
       <created>1534872184483</created>
@@ -402,11 +401,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534872184483</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated map control, has proper pixel control and feedback. Next step is to get JSON from server.">
+      <created>1534884522407</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534884522407</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34386000" />
+    <option name="totallyTimeSpent" value="35940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1431" y="82" width="1400" height="820" extended-state="0" />
@@ -501,19 +507,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebSide/src/jsontest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebSide/src/jsontest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        <state relative-caret-position="243">
+          <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
           <folding>
-            <element signature="n#!!block;n#drawCursor#0" />
             <element signature="n#!!block;n#eraseCursors#0" />
             <element signature="n#!!block;n#getData#0" />
             <element signature="n#!!block;n#write#0" />
@@ -524,15 +522,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebSide/src/jsontest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
+        <state relative-caret-position="311">
+          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#div#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#div#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#1;n#div#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#2;n#div#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#3;n#div#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebSide/src/jsontest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
