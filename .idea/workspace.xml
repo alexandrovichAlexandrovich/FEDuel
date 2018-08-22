@@ -8,9 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="65d88833-ccf1-4654-8673-69c970d6f880" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebSide/src/jsontest.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebSide/src/jsontest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebSide/src/jsontest.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebSide/src/jsontest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebSide/src/jsontest.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebSide/src/jsontest.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +20,7 @@
     <session id="-740466918">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.opened" value="2" />
@@ -54,9 +51,9 @@
           <entry key="css" value="143" />
           <entry key="html" value="2057" />
           <entry key="java" value="1007" />
-          <entry key="js" value="3600" />
+          <entry key="js" value="3602" />
           <entry key="json" value="275" />
-          <entry key="txt" value="156" />
+          <entry key="txt" value="174" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
@@ -66,8 +63,8 @@
           <entry key="HTML" value="2057" />
           <entry key="JAVA" value="1007" />
           <entry key="JSON" value="275" />
-          <entry key="JavaScript" value="3600" />
-          <entry key="PLAIN_TEXT" value="156" />
+          <entry key="JavaScript" value="3602" />
+          <entry key="PLAIN_TEXT" value="174" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
@@ -130,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebSide/src/jsontest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
+            <state relative-caret-position="161">
+              <caret line="115" column="38" selection-start-line="115" selection-start-column="38" selection-end-line="115" selection-end-column="38" />
               <folding>
                 <element signature="n#!!block;n#eraseCursors#0" />
                 <element signature="n#!!block;n#getData#0" />
@@ -154,7 +151,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebSide/src/jsontest.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -189,8 +186,8 @@
         <option value="$PROJECT_DIR$/WebSide/src/clientguy.html" />
         <option value="$PROJECT_DIR$/WebSide/src/jsontest.css" />
         <option value="$PROJECT_DIR$/WebSide/src/jsontest.json" />
-        <option value="$PROJECT_DIR$/WebSide/src/jsontest.js" />
         <option value="$PROJECT_DIR$/WebSide/src/jsontest.html" />
+        <option value="$PROJECT_DIR$/WebSide/src/jsontest.js" />
       </list>
     </option>
   </component>
@@ -216,8 +213,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1431" />
-    <option name="y" value="82" />
+    <option name="x" value="1998" />
+    <option name="y" value="131" />
     <option name="width" value="1400" />
     <option name="height" value="820" />
   </component>
@@ -280,7 +277,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534886059949" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534945256620" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -392,7 +389,7 @@
       <option name="presentableId" value="Default" />
       <updated>1534780056161</updated>
       <workItem from="1534780062810" duration="8804000" />
-      <workItem from="1534793598051" duration="27136000" />
+      <workItem from="1534793598051" duration="28339000" />
     </task>
     <task id="LOCAL-00001" summary="no changes">
       <created>1534872184483</created>
@@ -408,15 +405,21 @@
       <option name="project" value="LOCAL" />
       <updated>1534884522407</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added unit layer">
+      <created>1534886110462</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534886110462</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35940000" />
+    <option name="totallyTimeSpent" value="37143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1431" y="82" width="1400" height="820" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25373134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -461,7 +464,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="no changes" />
     <MESSAGE value="Updated map control, has proper pixel control and feedback. Next step is to get JSON from server." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated map control, has proper pixel control and feedback. Next step is to get JSON from server." />
+    <MESSAGE value="Added unit layer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added unit layer" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/duel/fe/requesthandler/ServerSide.java">
@@ -507,19 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebSide/src/jsontest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!block;n#eraseCursors#0" />
-            <element signature="n#!!block;n#getData#0" />
-            <element signature="n#!!block;n#write#0" />
-            <element signature="n#!!block;n#drawMap#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebSide/src/jsontest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -539,6 +530,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebSide/src/jsontest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="115" column="38" selection-start-line="115" selection-start-column="38" selection-end-line="115" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!block;n#eraseCursors#0" />
+            <element signature="n#!!block;n#getData#0" />
+            <element signature="n#!!block;n#write#0" />
+            <element signature="n#!!block;n#drawMap#0" />
+          </folding>
         </state>
       </provider>
     </entry>
